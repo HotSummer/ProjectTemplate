@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <Common/Test.h>
 
 @interface AppDelegate ()
 
