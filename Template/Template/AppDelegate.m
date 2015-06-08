@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <Common/Test.h>
+#import <RegexKitLite/RegexKitLite.h>
 
 @interface AppDelegate ()
 
