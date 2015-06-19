@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0BC5EDED333A985653079E9E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED864D016E208C98EE009CDF /* libPods.a */; };
+		4E0B5C141B33F50500C1747A /* XMPPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B5C131B33F50500C1747A /* XMPPViewController.m */; };
+		4E0B5C181B33FBFB00C1747A /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0B5C171B33FBFB00C1747A /* libresolv.dylib */; };
+		4E0B5C1A1B33FD2100C1747A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0B5C191B33FD2100C1747A /* CoreData.framework */; };
+		4E0B5C1C1B33FD2C00C1747A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0B5C1B1B33FD2C00C1747A /* SystemConfiguration.framework */; };
+		4E0B5C1E1B33FD3900C1747A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0B5C1D1B33FD3900C1747A /* CFNetwork.framework */; };
+		4E0B5C201B33FD4100C1747A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0B5C1F1B33FD4100C1747A /* CoreGraphics.framework */; };
+		4E0B5C221B33FD4A00C1747A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0B5C211B33FD4A00C1747A /* UIKit.framework */; };
+		4E0B5C241B33FD5300C1747A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0B5C231B33FD5300C1747A /* Foundation.framework */; };
+		4E0B5C261B33FD5900C1747A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0B5C251B33FD5900C1747A /* CoreLocation.framework */; };
+		4E0B5C281B33FD6300C1747A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0B5C271B33FD6300C1747A /* Security.framework */; };
+		4E0B5C2A1B33FD6E00C1747A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0B5C291B33FD6E00C1747A /* libxml2.dylib */; };
 		4E6B3A2C1B257B7C00CA08E0 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6B3A2B1B257B7C00CA08E0 /* Common.framework */; };
 		4E877B281B2536C80034809C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E877B271B2536C80034809C /* main.m */; };
 		4E877B2B1B2536C80034809C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E877B2A1B2536C80034809C /* AppDelegate.m */; };
@@ -29,6 +40,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E0B5C121B33F50500C1747A /* XMPPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPViewController.h; sourceTree = "<group>"; };
+		4E0B5C131B33F50500C1747A /* XMPPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPViewController.m; sourceTree = "<group>"; };
+		4E0B5C171B33FBFB00C1747A /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
+		4E0B5C191B33FD2100C1747A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4E0B5C1B1B33FD2C00C1747A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4E0B5C1D1B33FD3900C1747A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4E0B5C1F1B33FD4100C1747A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E0B5C211B33FD4A00C1747A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4E0B5C231B33FD5300C1747A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E0B5C251B33FD5900C1747A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4E0B5C271B33FD6300C1747A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4E0B5C291B33FD6E00C1747A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		4E0B5C2B1B33FD7A00C1747A /* libinfo.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libinfo.dylib; path = usr/lib/libinfo.dylib; sourceTree = SDKROOT; };
 		4E6B3A2B1B257B7C00CA08E0 /* Common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Common.framework; path = Common/Common/buildProducts/Common.framework; sourceTree = "<group>"; };
 		4E877B221B2536C80034809C /* Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E877B261B2536C80034809C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +77,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E0B5C2A1B33FD6E00C1747A /* libxml2.dylib in Frameworks */,
+				4E0B5C281B33FD6300C1747A /* Security.framework in Frameworks */,
+				4E0B5C261B33FD5900C1747A /* CoreLocation.framework in Frameworks */,
+				4E0B5C241B33FD5300C1747A /* Foundation.framework in Frameworks */,
+				4E0B5C221B33FD4A00C1747A /* UIKit.framework in Frameworks */,
+				4E0B5C201B33FD4100C1747A /* CoreGraphics.framework in Frameworks */,
+				4E0B5C1E1B33FD3900C1747A /* CFNetwork.framework in Frameworks */,
+				4E0B5C1C1B33FD2C00C1747A /* SystemConfiguration.framework in Frameworks */,
+				4E0B5C1A1B33FD2100C1747A /* CoreData.framework in Frameworks */,
+				4E0B5C181B33FBFB00C1747A /* libresolv.dylib in Frameworks */,
 				0BC5EDED333A985653079E9E /* libPods.a in Frameworks */,
 				4E6B3A2C1B257B7C00CA08E0 /* Common.framework in Frameworks */,
 			);
@@ -99,6 +133,8 @@
 				4E877B321B2536C80034809C /* Images.xcassets */,
 				4E877B341B2536C80034809C /* LaunchScreen.xib */,
 				4E877B251B2536C80034809C /* Supporting Files */,
+				4E0B5C121B33F50500C1747A /* XMPPViewController.h */,
+				4E0B5C131B33F50500C1747A /* XMPPViewController.m */,
 			);
 			path = Template;
 			sourceTree = "<group>";
@@ -132,6 +168,17 @@
 		BC8F8B8124A5838BFAACAC74 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4E0B5C2B1B33FD7A00C1747A /* libinfo.dylib */,
+				4E0B5C291B33FD6E00C1747A /* libxml2.dylib */,
+				4E0B5C271B33FD6300C1747A /* Security.framework */,
+				4E0B5C251B33FD5900C1747A /* CoreLocation.framework */,
+				4E0B5C231B33FD5300C1747A /* Foundation.framework */,
+				4E0B5C211B33FD4A00C1747A /* UIKit.framework */,
+				4E0B5C1F1B33FD4100C1747A /* CoreGraphics.framework */,
+				4E0B5C1D1B33FD3900C1747A /* CFNetwork.framework */,
+				4E0B5C1B1B33FD2C00C1747A /* SystemConfiguration.framework */,
+				4E0B5C191B33FD2100C1747A /* CoreData.framework */,
+				4E0B5C171B33FBFB00C1747A /* libresolv.dylib */,
 				4E6B3A2B1B257B7C00CA08E0 /* Common.framework */,
 				ED864D016E208C98EE009CDF /* libPods.a */,
 			);
@@ -285,6 +332,7 @@
 				4E877B2E1B2536C80034809C /* ViewController.m in Sources */,
 				4E877B2B1B2536C80034809C /* AppDelegate.m in Sources */,
 				4E877B281B2536C80034809C /* main.m in Sources */,
+				4E0B5C141B33F50500C1747A /* XMPPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,8 +461,49 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Common/Common/buildProducts",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/JSONKit-NoWarning\"",
+					"\"${PODS_ROOT}/Headers/Public/JSONModel\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/RegexKitLite\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/pop\"",
+					"${SDKROOT}/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = Template/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Pods-AFNetworking\"",
+					"-l\"Pods-JSONKit-NoWarning\"",
+					"-l\"Pods-JSONModel\"",
+					"-l\"Pods-MBProgressHUD\"",
+					"-l\"Pods-Masonry\"",
+					"-l\"Pods-RegexKitLite\"",
+					"-l\"Pods-SDWebImage\"",
+					"-l\"Pods-pop\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -428,8 +517,49 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Common/Common/buildProducts",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/JSONKit-NoWarning\"",
+					"\"${PODS_ROOT}/Headers/Public/JSONModel\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/RegexKitLite\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/pop\"",
+					"${SDKROOT}/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = Template/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Pods-AFNetworking\"",
+					"-l\"Pods-JSONKit-NoWarning\"",
+					"-l\"Pods-JSONModel\"",
+					"-l\"Pods-MBProgressHUD\"",
+					"-l\"Pods-Masonry\"",
+					"-l\"Pods-RegexKitLite\"",
+					"-l\"Pods-SDWebImage\"",
+					"-l\"Pods-pop\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
