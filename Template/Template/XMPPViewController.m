@@ -20,7 +20,7 @@
 
 - (IBAction)didPressedBtnConnect:(id)sender {
     [[XMPPHelper shareInstance] setupStream];
-    [[XMPPHelper shareInstance] connect:@"nxjwalqyh@182.254.153.66/XMPPIOS" password:@"123456" willConnect:^(NSString *errorDescription, XMPPStream *xmppStream) {
+    [[XMPPHelper shareInstance] connect:@"nxjwalqyh@win-p3hh36c8kuq/XMPPIOS" password:@"123456" willConnect:^(NSString *errorDescription, XMPPStream *xmppStream) {
         NSLog(@"%@", xmppStream);
     } didConnect:^(NSString *errorDescription, XMPPStream *xmppStream) {
         if (errorDescription.length > 0) {
