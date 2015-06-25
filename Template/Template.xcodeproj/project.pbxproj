@@ -27,6 +27,9 @@
 		4E877B331B2536C80034809C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E877B321B2536C80034809C /* Images.xcassets */; };
 		4E877B361B2536C80034809C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E877B341B2536C80034809C /* LaunchScreen.xib */; };
 		4E877B421B2536C80034809C /* TemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E877B411B2536C80034809C /* TemplateTests.m */; };
+		4EF211071B3BAD5F00D07F42 /* XMPPUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF211061B3BAD5F00D07F42 /* XMPPUIManager.m */; };
+		4EF2110A1B3BD3E900D07F42 /* CellState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF211091B3BD3E900D07F42 /* CellState.m */; };
+		4EF211111B3C150200D07F42 /* CellFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF211101B3C150200D07F42 /* CellFriend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,12 @@
 		4E877B3B1B2536C80034809C /* TemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E877B401B2536C80034809C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E877B411B2536C80034809C /* TemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateTests.m; sourceTree = "<group>"; };
+		4EF211051B3BAD5F00D07F42 /* XMPPUIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPUIManager.h; sourceTree = "<group>"; };
+		4EF211061B3BAD5F00D07F42 /* XMPPUIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPUIManager.m; sourceTree = "<group>"; };
+		4EF211081B3BD3E900D07F42 /* CellState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellState.h; sourceTree = "<group>"; };
+		4EF211091B3BD3E900D07F42 /* CellState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellState.m; sourceTree = "<group>"; };
+		4EF2110F1B3C150200D07F42 /* CellFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellFriend.h; sourceTree = "<group>"; };
+		4EF211101B3C150200D07F42 /* CellFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellFriend.m; sourceTree = "<group>"; };
 		58FF4E5A98EA9581B80496A6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C03ABD9C560E8A18640283F6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		ED864D016E208C98EE009CDF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +144,12 @@
 				4E877B251B2536C80034809C /* Supporting Files */,
 				4E0B5C121B33F50500C1747A /* XMPPViewController.h */,
 				4E0B5C131B33F50500C1747A /* XMPPViewController.m */,
+				4EF211051B3BAD5F00D07F42 /* XMPPUIManager.h */,
+				4EF211061B3BAD5F00D07F42 /* XMPPUIManager.m */,
+				4EF211081B3BD3E900D07F42 /* CellState.h */,
+				4EF211091B3BD3E900D07F42 /* CellState.m */,
+				4EF2110F1B3C150200D07F42 /* CellFriend.h */,
+				4EF211101B3C150200D07F42 /* CellFriend.m */,
 			);
 			path = Template;
 			sourceTree = "<group>";
@@ -330,9 +345,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E877B2E1B2536C80034809C /* ViewController.m in Sources */,
+				4EF211071B3BAD5F00D07F42 /* XMPPUIManager.m in Sources */,
 				4E877B2B1B2536C80034809C /* AppDelegate.m in Sources */,
+				4EF211111B3C150200D07F42 /* CellFriend.m in Sources */,
 				4E877B281B2536C80034809C /* main.m in Sources */,
 				4E0B5C141B33F50500C1747A /* XMPPViewController.m in Sources */,
+				4EF2110A1B3BD3E900D07F42 /* CellState.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,5 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface XMPPViewController : UIViewController
+<
+UITableViewDataSource,
+UITableViewDelegate
+>
+
+- (void)showConnnectView;
+
+- (void)showDisconnectView;
+
+- (void)refreshFriendsList;
 
 @end
